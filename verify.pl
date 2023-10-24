@@ -32,5 +32,5 @@ q2c_results(TOT,GOOD) :-
 % stampa numero di query totale e risposte correttamente
 test :-
     q2c_results(TOT,GOOD),
-    format('Totali:~w\nCorrette:~w\n',[TOT,GOOD]),
+    format('Total:~w\nCorrect:~w\n',[TOT,GOOD]),
     halt.
