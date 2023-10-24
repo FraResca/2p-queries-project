@@ -1,6 +1,5 @@
 import os.path as osp
 from kbc.cqd_beam import *
-import timeit
 
 
 model_path = "models/FB15k-model-rank-100-epoch-100-1602511249.pt"

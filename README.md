@@ -1,13 +1,20 @@
 # Laboratorio di Intelligenza Artificiale - Francesco Resca
 
-### Preparazione
+### Preparation
 
-Ho cominciato scaricando i knowledge graph:
+Launch this script to download dataset and pretrained models
 
 ```bash
-wget http://data.neuralnoise.com/cqd-data.tgz
-tar xvf cqd-data.tgz
+./dataandmodel.sh
 ```
+
+Prepare the conda environment for the gradient based method
+
+```bash
+conda create --name 2p-queries-project python=3.8 && conda activate 2p-queries-project
+pip install -r requirements.txt
+```
+
 
 ### Accorpamento e creazione dei fatti
 
