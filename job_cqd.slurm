@@ -12,4 +12,4 @@
  
 module load conda
  
-conda run cqd python3 starter.py
+conda run python3 starter.py
