@@ -7,7 +7,7 @@ Download dataset and pretrained models by launching this script
 
 Prepare the conda environment for the gradient based method
 ```bash
-conda create --name 2p-queries-project python=3.8 && conda activate 2p-queries-project
+conda create --name cqd python=3.8 && conda activate cqd
 pip install -r requirements.txt
 ```
 
