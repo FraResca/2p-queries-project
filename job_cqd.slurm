@@ -11,5 +11,6 @@
 
  
 module load anaconda/3
+module load cuda/11.4
  
 conda run python3 starter.py
