@@ -12,4 +12,4 @@
  
 module load conda
  
-conda run 2p-queries-project python3 starter.py
+conda run python3 starter.py
