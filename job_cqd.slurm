@@ -10,6 +10,6 @@
 #SBATCH --gres=gpu:4
 
  
-module load conda
+module load anaconda\3
  
 conda run python3 starter.py
